@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Button from "./Button";
+import Image from "next/image";
 
 function MyRecentWork() {
   const workList = [
@@ -52,7 +53,7 @@ function MyRecentWork() {
             key={index}
             className="relative group bg-[#080808] shadow-[#1d1c1c] shadow-md rounded-lg overflow-hidden"
           >
-            <img
+            <Image
               src={work.image}
               alt={`${work.title} image`}
               className="w-full h-auto object-cover transition duration-300 ease-in-out group-hover:blur-sm"

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 function Navbar() {
   return (
     <nav className="bg-black">
@@ -23,7 +24,7 @@ function Navbar() {
         <div className="w-fit md:w-[150px]">
           <ul className="flex gap-3 md:gap-5 items-center">
             <li>
-              <img
+              <Image
                 className="w-[20px] h-auto md:w-[40px] md:h-[40px] hover:filter hover:drop-shadow-[0_0_5px_white] transition-all duration-300"
                 src="/Twitter.svg"
                 alt="twitter"
@@ -36,7 +37,7 @@ function Navbar() {
                 )
               }
             >
-              <img
+              <Image
                 className="w-[20px] h-auto md:w-[40px] md:h-[40px] hover:filter hover:drop-shadow-[0_0_5px_white] transition-all duration-300"
                 src="/LinkedIn.svg"
                 alt="LinkedIn"

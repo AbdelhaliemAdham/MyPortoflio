@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 function HomeSection() {
@@ -29,7 +30,7 @@ function HomeSection() {
         </button>
       </div>
       <div className="w-[35%]">
-        <img
+        <Image
           className="max-w-full h-auto rounded-full"
           src="/abdo.png"
           alt="My Photo"
