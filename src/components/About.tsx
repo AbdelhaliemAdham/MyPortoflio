@@ -2,8 +2,10 @@ import React from "react";
 function About() {
   return (
     <section className="bg-[#080808] text-center" id="about">
-      <h1 className="text-white font-bold text-3xl py-5">About Me</h1>
-      <p className="text-[#9C9C9C] w-[70%] mx-auto py-5 leading-relaxed">
+      <h1 className="text-xl text-white font-bold md:text-3xl py-5">
+        About Me
+      </h1>
+      <p className="text-base w-[90%] md:text-xl text-start text-[#9C9C9C] md:w-[70%] mx-auto py-5 leading-relaxed">
         Hi, I'm Abdelhaliem Adham, a passionate Front-End Developer with some
         backend experience. I specialize in building user-friendly interfaces
         and developing responsive designs. I am always eager to learn new

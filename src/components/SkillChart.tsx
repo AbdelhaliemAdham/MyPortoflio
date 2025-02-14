@@ -10,7 +10,13 @@ interface BasicGaugesProps {
 const BasicGauges: React.FC<BasicGaugesProps> = ({ percent, title }) => {
   return (
     <Stack direction="column" spacing={2} alignItems="center">
-      <Typography variant="h6" component="h2" color="white" fontWeight="bold">
+      <Typography
+        className="text-base md:2xl"
+        variant="h6"
+        component="h2"
+        color="white"
+        fontWeight="bold"
+      >
         {title}
       </Typography>
       <Gauge
@@ -19,15 +25,6 @@ const BasicGauges: React.FC<BasicGaugesProps> = ({ percent, title }) => {
         value={percent}
         valueMin={0}
         valueMax={100}
-        sx={{
-          ".MuiGauge-valueText": {
-            fill: "white",
-            fontWeight: "bold",
-          },
-          ".MuiGauge-valueLabel": {
-            fill: "white",
-          },
-        }}
       />
     </Stack>
   );
