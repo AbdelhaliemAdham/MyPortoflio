@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-12 bg-[#080808]">
+    <section id="contact" className="py-12 bg-[#080808]">
       <h2 className="text-3xl font-bold text-center text-white">Contact Me</h2>
       <p className="text-center text-gray-600 mt-2">
         Feel free to send me a message using the form below.

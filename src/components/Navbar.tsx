@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 function Navbar() {
@@ -28,7 +29,13 @@ function Navbar() {
                 alt="twitter"
               />
             </li>
-            <li>
+            <li
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/abdelhaliem-adham-4485ab20b/"
+                )
+              }
+            >
               <img
                 className="w-[20px] h-auto md:w-[40px] md:h-[40px] hover:filter hover:drop-shadow-[0_0_5px_white] transition-all duration-300"
                 src="/LinkedIn.svg"
